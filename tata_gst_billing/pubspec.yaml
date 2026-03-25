@@ -1,0 +1,25 @@
+name: tata_gst_billing
+description: TATA GST Billing App
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  provider: ^6.0.0
+  intl: ^0.18.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: TataSans
+      fonts:
+        - asset: assets/fonts/TataSans-Regular.ttf
